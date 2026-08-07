@@ -180,7 +180,7 @@ body {
   align-items: center;
 
   max-width: var(--maxw);
-  width: 85%; 
+  width: 90%; 
   margin: auto;
   
   gap: 1rem;
@@ -202,7 +202,9 @@ body {
   color: #4df252;
 }
 .hero-text p{
-  font-size: clamp(1rem, 3vw, 1.5rem);
+  width: min(100%, 500px);
+  line-height: 1.6;
+  font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .hero-text a{
