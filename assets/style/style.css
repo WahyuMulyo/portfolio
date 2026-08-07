@@ -124,13 +124,13 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 8px;
   list-style: none;
 }
 
 .menu a{
   text-decoration: none;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   font-weight: 700;
   color: var(--text);
   font-size: clamp(1rem, 2vw, 1.5rem);
