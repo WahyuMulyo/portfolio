@@ -913,6 +913,10 @@ details span:hover{
   scroll-margin-top: 20px;
 }
 
+.nav {
+  scroll-margin-top: 50px;
+}
+
 /* ===========================                     Responsive
 =========================== */ 
 
